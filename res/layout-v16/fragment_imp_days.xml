@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vidhyalearning.entamizhnaalkaati.ImpDaysFragment">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.vidhyalearning.entamizhnaalkaati.ImpDaysFragment">
+
+
+
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.applandeo.materialcalendarview.CalendarView
+                android:id="@+id/calendarView2"
+                android:layout_width="wrap_content"
+                android:layout_height="380dp"
+
+                >
+
+            </com.applandeo.materialcalendarview.CalendarView>
+
+            <Button
+                android:id="@+id/addNote"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="top"
+                android:background="@android:color/holo_blue_bright"
+                android:fontFamily="sans-serif"
+                android:shadowColor="@color/defaultColor"
+                android:text="Add Note"
+                android:textAppearance="@style/TextAppearance.AppCompat" tools:targetApi="jelly_bean" />
+
+        </FrameLayout>
+
+        <com.baoyz.swipemenulistview.SwipeMenuListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="bottom"
+            android:background="@color/colorPrimary" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
